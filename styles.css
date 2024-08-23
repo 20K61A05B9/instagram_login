@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.login-box {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    padding: 40px 30px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.logo h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 48px;
+    color: #262626;
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #0095f6;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8e8e8e;
+    margin: 20px 0;
+}
+
+.divider hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider span {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.login-facebook {
+    display: block;
+    color: #385185;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.forgot-password {
+    display: block;
+    color: #1f6fe7;
+    margin-top: 20px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.signup-box {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+}
+
+.signup-box p {
+    font-size: 14px;
+}
+
+.signup-box a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
